@@ -10,9 +10,9 @@ public class FileWriting{
 public static void main(String args[]) throws IOException {
 FileWriter fr=new FileWriter("C:\\Users\\HP\\personal_projects\\Java\\FileHandling_1\\Files.txt");
 BufferedWriter br=new BufferedWriter(fr);
-br.write("sanky");
+br.write("Bharath");
 br.newLine();
-br.write("syam");
+br.write("Shashi");
 br.close();
 }
 }
